@@ -1,0 +1,26 @@
+
+
+.header{
+    padding: 30px 0;
+    border: 0;
+    box-shadow: 0 0 20px 0 rgb(104, 103, 103);
+
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-nav{
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+    }
+    .header-nav{
+        font-family: "Roboto", sans-serif;
+       color: rgb(0, 0, 0);
+        font-size: 18px;
+        text-decoration: none;
+         
+    }
+}
